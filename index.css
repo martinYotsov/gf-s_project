@@ -246,7 +246,11 @@ img{
   margin-top: 5px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: #ff99dd;;
+  background-color: #ff99dd;
+}
+
+.content-cat button:hover{
+  background-color: #d843a6;
 }
 
 .content-cat h4{
@@ -260,7 +264,7 @@ img{
   }
 }
 
-@media(max-width:750px){
+@media(max-width: 650px){
   .content-cat{
     width: 100%;
   }
@@ -300,4 +304,3 @@ img{
 .profile-card p{
   padding-bottom: 20px;
 }
-
